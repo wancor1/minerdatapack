@@ -1,3 +1,5 @@
-Minecraft datapack
+
+# Minecraft datapack
+
 ---
 miner datapck
