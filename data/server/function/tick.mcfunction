@@ -1,0 +1,1 @@
+function server:ender_chest/_place
