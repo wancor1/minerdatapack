@@ -1,6 +1,5 @@
 
 # Minecraft datapack
 
-miner datapck
-
+miner datapck  
 ver: 1.21.1
