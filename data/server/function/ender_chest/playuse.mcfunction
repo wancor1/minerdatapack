@@ -1,4 +1,4 @@
-# 目の前に何かあったらそこにTP
+	# 目の前に何かあったらそこにTP
     execute unless block ^ ^ ^0.7 #server:no_collision run function server:ender_chest/place
 
 # 目の前に何も無くてプレイヤーからそんな離れてなかったらポジションずらして再帰
