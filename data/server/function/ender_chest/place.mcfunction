@@ -1,1 +1,0 @@
-setblock ~ ~ ~ ender_chest
