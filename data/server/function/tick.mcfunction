@@ -1,1 +1,2 @@
-function server:ender_chest/_place
+function server:ender_chest/playuse
+function server:tick/player
