@@ -1,2 +1,1 @@
-function server:ender_chest/playuse
-function server:tick/player
+execute as @a at @s run function server:tick/player
