@@ -2,5 +2,33 @@
     "pack": {
         "description": "minerdatapack.",
         "pack_format": 48
-    }
+    },
+    "filter": {
+    "block": [
+        {
+            "namespace": "minecraft",
+            "path": "recipe/wooden_pickaxe"
+        },
+        {
+            "namespace": "minecraft",
+            "path": "recipe/stone_pickaxe"
+        },
+        {
+            "namespace": "minecraft",
+            "path": "recipe/iron_pickaxe"
+        },
+        {
+            "namespace": "minecraft",
+            "path": "recipe/golden_pickaxe"
+        },
+        {
+            "namespace": "minecraft",
+            "path": "recipe/diamond_pickaxe"
+        },
+        {
+            "namespace": "minecraft",
+            "path": "recipe/netherite_pickaxe"
+        }
+    ]
+}
 }

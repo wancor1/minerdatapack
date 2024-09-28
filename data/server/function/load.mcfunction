@@ -1,1 +1,1 @@
-title @a actionbar "§ereload§r"
+title @a[gamemode=!survival,gamemode=!spectator] actionbar "§ereload§r"
