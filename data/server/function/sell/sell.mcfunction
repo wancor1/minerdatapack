@@ -1,1 +1,2 @@
-execute as @a unless items entity @s inventory.26 * run item replace entity @s inventory.26 with stone
+item replace entity @s inventory.26 with air 1
+$scoreboard players add @s money $(SP)

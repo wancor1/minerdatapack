@@ -1,1 +1,1 @@
-function server:sell/sell
+execute as @a at @s run function server:sell/sellmain
