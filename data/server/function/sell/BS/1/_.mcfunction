@@ -1,0 +1,1 @@
+execute if items entity @s inventory.26 #server:11 run function server:sell/bs/1/11/_
