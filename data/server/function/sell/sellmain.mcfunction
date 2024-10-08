@@ -5,4 +5,4 @@
 # 売りのためのitem特定
 	execute if items entity @s inventory.26 #server:sell_all run function server:sell/bs/_
 # 売れないitem
-	function server:sell/itemback
+	execute unless items entity @s inventory.26 #server:sell_all run function server:sell/itemback

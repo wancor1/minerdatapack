@@ -1,7 +1,7 @@
 #block(名前),SP(値段)
 #{"block":"","SP":""}
 
-data modify storage qty 1 set from entity @s Inventory[-1].count
+data modify storage qty 1 set from entity @s Inventory[{Slot:35b}].count
 execute store result score @s qty run data get storage qty 1
 
 # del item
