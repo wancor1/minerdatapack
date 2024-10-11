@@ -1,2 +1,0 @@
-execute if items entity @s inventory.26 minecraft:grass_block run function server:sell/sell {"block":"草ブロック","SP":"2"}
-execute if items entity @s inventory.26 minecraft:podzol run function server:sell/sell {"block":"ポドゾル","SP":"3"}
