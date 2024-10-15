@@ -7,6 +7,21 @@
 		"minecraft:mud",
 		"minecraft:clay",
 		"minecraft:gravel",
-		"minecraft:sand"
+		"minecraft:sand",
+		"minecraft:sandstone",
+		"minecraft:red_sand",
+		"minecraft:red_sandstone",
+		"minecraft:ice",
+		"minecraft:packed_ice",
+		"minecraft:blue_ice",
+		"minecraft:snow_block",
+		"minecraft:snow",
+		"minecraft:moss_block",
+		"minecraft:moss_carpet",
+		"minecraft:stone",
+		"minecraft:deepslate",
+		"minecraft:granite",
+		"minecraft:diorite",
+		"minecraft:andesite"
 	]
 }
