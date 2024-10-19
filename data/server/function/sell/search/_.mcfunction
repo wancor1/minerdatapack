@@ -46,3 +46,21 @@ execute if items entity @s inventory.26 minecraft:diorite run \
 	function server:sell/sell {"block":"閃緑岩","SP":"2"}
 execute if items entity @s inventory.26 minecraft:andesite run \
 	function server:sell/sell {"block":"安山岩","SP":"2"}
+execute if items entity @s inventory.26 minecraft:calcite run \
+	function server:sell/sell {"block":"方解石","SP":"3"}
+execute if items entity @s inventory.26 minecraft:tuff run \
+	function server:sell/sell {"block":"凝灰岩","SP":"1"}
+execute if items entity @s inventory.26 minecraft:dripstone_block run \
+	function server:sell/sell {"block":"鍾乳石ブロック","SP":"1"}
+execute if items entity @s inventory.26 minecraft:pointed_dripstone run \
+	function server:sell/sell {"block":"鍾乳石","SP":"1"}
+execute if items entity @s inventory.26 minecraft:prismarine run \
+	function server:sell/sell {"block":"プリズマリン","SP":"2"}
+execute if items entity @s inventory.26 minecraft:magma_block run \
+	function server:sell/sell {"block":"マグマブロック","SP":"2"}
+execute if items entity @s inventory.26 minecraft:obsidian run \
+	function server:sell/sell {"block":"黒曜石","SP":"3"}
+execute if items entity @s inventory.26 minecraft:crying_obsidian run \
+	function server:sell/sell {"block":"泣く黒曜石","SP":"7"}
+execute if items entity @s inventory.26 minecraft:netherrack run \
+	function server:sell/sell {"block":"ネザーラック","SP":"1"}
