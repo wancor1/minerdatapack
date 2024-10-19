@@ -22,6 +22,15 @@
 		"minecraft:deepslate",
 		"minecraft:granite",
 		"minecraft:diorite",
-		"minecraft:andesite"
+		"minecraft:andesite",
+		"minecraft:calcite",
+		"minecraft:tuff",
+		"minecraft:dripstone_block",
+		"minecraft:pointed_dripstone",
+		"minecraft:prismarine",
+		"minecraft:magma_block",
+		"minecraft:obsidian",
+		"minecraft:crying_obsidian",
+		"minecraft:netherrack"
 	]
 }
