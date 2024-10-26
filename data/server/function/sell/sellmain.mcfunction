@@ -1,5 +1,5 @@
 # home
-execute as @a at @s if entity @s[nbt=!{Inventory:[{Slot:80b}]}] run function server:home/click/book
+execute unless items entity @s player.crafting.0 #server:invpanelitem if items entity @s player.crafting.1 #server:invpanelitem if items entity @s player.crafting.2 #server:invpanelitem if items entity @s player.crafting.3 #server:invpanelitem run function server:home/click/book
 
 # if air
 	execute as @s[nbt=!{Inventory:[{Slot:82b}]}] run function server:sell/ifair
