@@ -1,0 +1,9 @@
+score:
+panel
+	0:home
+	1:sell
+
+
+craftslot
+80:home
+82:sell

@@ -1,11 +1,11 @@
 #block(名前),SP(値段)
 #{"block":"","SP":""}
 
-data modify storage qty 1 set from entity @s Inventory[{Slot:35b}].count
+data modify storage qty 1 set from entity @s Inventory[{Slot:82b}].count
 execute store result score @s qty run data get storage qty 1
 
 # del item
-item replace entity @s inventory.26 with air 1
+item replace entity @s player.crafting.2 with air 1
 item replace entity @s player.cursor with air 1
 
 # sell
