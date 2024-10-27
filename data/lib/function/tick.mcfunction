@@ -11,5 +11,5 @@
 scoreboard players add @a panel 0
 
 #function
-execute as @a[scores={panel=0}] at @s run function server:home/main
-execute as @a[scores={panel=1}] at @s run function server:sell/sellmain
+execute as @a[scores={panel=0}] at @s run function menu:_
+execute as @a[scores={panel=1}] at @s run function sell:_

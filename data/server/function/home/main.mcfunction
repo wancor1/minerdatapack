@@ -1,8 +1,0 @@
-# メニュークリック検知
-    execute unless items entity @s player.crafting.0 #server:invpanelitem if items entity @s player.crafting.1 #server:invpanelitem if items entity @s player.crafting.2 #server:invpanelitem if items entity @s player.crafting.3 #server:invpanelitem run function server:home/click/book
-    execute unless items entity @s player.crafting.1 #server:invpanelitem if items entity @s player.crafting.0 #server:invpanelitem if items entity @s player.crafting.2 #server:invpanelitem if items entity @s player.crafting.3 #server:invpanelitem run function server:home/click/none
-    execute unless items entity @s player.crafting.2 #server:invpanelitem if items entity @s player.crafting.0 #server:invpanelitem if items entity @s player.crafting.1 #server:invpanelitem if items entity @s player.crafting.3 #server:invpanelitem run function server:home/click/sell
-    execute unless items entity @s player.crafting.3 #server:invpanelitem if items entity @s player.crafting.0 #server:invpanelitem if items entity @s player.crafting.1 #server:invpanelitem if items entity @s player.crafting.2 #server:invpanelitem run function server:home/click/none
-
-#inv閉じたとき
-	execute unless items entity @s player.crafting.0 #server:invpanelitem unless items entity @s player.crafting.1 #server:invpanelitem unless items entity @s player.crafting.2 #server:invpanelitem unless items entity @s player.crafting.3 #server:invpanelitem run function server:home/reload
