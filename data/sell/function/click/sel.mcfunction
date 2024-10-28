@@ -1,5 +1,5 @@
 function menu:return_item {slot:2}
 
-scoreboard players set @s panel 1
+tag @s add sell.sel
 
 function sell:reload

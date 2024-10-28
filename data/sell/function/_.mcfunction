@@ -1,11 +1,12 @@
-# home
-execute unless items entity @s player.crafting.0 #menu:invpanelitem if items entity @s player.crafting.1 #menu:invpanelitem if items entity @s player.crafting.2 #menu:invpanelitem if items entity @s player.crafting.3 #menu:invpanelitem run function menu:home/click/book
+# メニュークリック検知
+	execute unless items entity @s player.crafting.0 #sell:sellpanelitem[custom_data={panel:"0"}] if items entity @s player.crafting.1 #sell:sellpanelitem[custom_data={panel:"1"}] if items entity @s player.crafting.2 #sell:sellpanelitem[custom_data={panel:"2"}] if items entity @s player.crafting.3 #sell:sellpanelitem[custom_data={panel:"3"}] run function menu:click/book
+	execute unless items entity @s player.crafting.1 #sell:sellpanelitem[custom_data={panel:"1"}] if items entity @s player.crafting.0 #sell:sellpanelitem[custom_data={panel:"0"}] if items entity @s player.crafting.2 #sell:sellpanelitem[custom_data={panel:"2"}] if items entity @s player.crafting.3 #sell:sellpanelitem[custom_data={panel:"3"}] run function sell:click/none
+	execute unless items entity @s player.crafting.2 #sell:sellpanelitem[custom_data={panel:"2"}] if items entity @s player.crafting.0 #sell:sellpanelitem[custom_data={panel:"0"}] if items entity @s player.crafting.1 #sell:sellpanelitem[custom_data={panel:"1"}] if items entity @s player.crafting.3 #sell:sellpanelitem[custom_data={panel:"3"}] run function sell:click/select
+	execute unless items entity @s player.crafting.3 #sell:sellpanelitem[custom_data={panel:"3"}] if items entity @s player.crafting.0 #sell:sellpanelitem[custom_data={panel:"0"}] if items entity @s player.crafting.1 #sell:sellpanelitem[custom_data={panel:"1"}] if items entity @s player.crafting.2 #sell:sellpanelitem[custom_data={panel:"2"}] run function sell:click/sel
 
-# if air
-	execute as @s[nbt=!{Inventory:[{Slot:82b}]}] run function sell:ifair
-# 板ガラスskip         ↕反対
-	execute as @s[nbt={Inventory:[{Slot:82b,id:"minecraft:magenta_stained_glass_pane",components: {"minecraft:lore":['{"color":"dark_gray","italic":false,"text":"ここにアイテムを置くと売れます。"}'], "minecraft:item_name":'{"color":"#8D65B8","italic":false,"text":"Sell"}'}}]}] run return fail
-# 売れないitem
-	execute unless items entity @s player.crafting.2 #sell:sell_all run function sell:itemback
-# 売りのためのitem特定     ↕反対
-	execute if items entity @s player.crafting.2 #sell:sell_all run function sell:search/_
+#inv閉じたとき
+	execute unless items entity @s player.crafting.0 #sell:sellpanelitem unless items entity @s player.crafting.1 #sell:sellpanelitem unless items entity @s player.crafting.2 #sell:sellpanelitem unless items entity @s player.crafting.3 #sell:sellpanelitem run function sell:reload
+
+
+
+

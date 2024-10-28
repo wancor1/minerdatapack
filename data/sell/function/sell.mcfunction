@@ -4,10 +4,6 @@
 data modify storage qty 1 set from entity @s Inventory[{Slot:82b}].count
 execute store result score @s qty run data get storage qty 1
 
-# del item
-item replace entity @s player.crafting.2 with air 1
-item replace entity @s player.cursor with air 1
-
 # sell
 	# reset
 	scoreboard players reset @s sellmoney
@@ -15,7 +11,9 @@ item replace entity @s player.cursor with air 1
 	$scoreboard players set @s sellmoney $(SP)
 	# 値段*個数
 	scoreboard players operation @s sellmoney *= @s qty
-	# add money
-	scoreboard players operation @s money += @s sellmoney
-	# message
-	$tellraw @s [{"text":"$(block)*"},{"score":{"name":"@s","objective":"qty"}},{"text":"を"},{"score":{"name":"@s","objective":"sellmoney"}},{"text":"arsで売りました。"}]
+
+
+# ↑ 表示
+# ↓ 決定
+
+execute if entity @s[tag=sell.sel] run function sell:s
