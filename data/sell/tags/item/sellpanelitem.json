@@ -2,6 +2,8 @@
 	"values": [
 		"minecraft:book",
 		"minecraft:magenta_stained_glass_pane",
-		"minecraft:barrier"
+		"minecraft:barrier",
+		"minecraft:golden_apple",
+		"minecraft:emerald"
 	]
 }

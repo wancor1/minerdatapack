@@ -1,0 +1,10 @@
+0: home
+1: comingsoon
+2: 
+3: 
+
+2: なんかsellのパネルがクリック判定消えてるから直す
+2: sellのcrafting.1に売値とかのloreつける
+0: homeのcrafting.3にshop作る
+3: shopはaxe,pickaxe,shovelを売る
+2: 売れるアイテム増やす

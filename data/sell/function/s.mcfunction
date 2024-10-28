@@ -7,3 +7,5 @@
 
 # message
 	$tellraw @s [{"text":"$(block)*"},{"score":{"name":"@s","objective":"qty"}},{"text":"を"},{"score":{"name":"@s","objective":"sellmoney"}},{"text":"arsで売りました。"}]
+
+tag @s remove sell.sel

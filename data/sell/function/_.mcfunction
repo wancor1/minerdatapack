@@ -6,7 +6,3 @@
 
 #inv閉じたとき
 	execute unless items entity @s player.crafting.0 #sell:sellpanelitem unless items entity @s player.crafting.1 #sell:sellpanelitem unless items entity @s player.crafting.2 #sell:sellpanelitem unless items entity @s player.crafting.3 #sell:sellpanelitem run function sell:reload
-
-
-
-
