@@ -22,3 +22,4 @@ item replace entity @s player.crafting.3 with minecraft:golden_apple[custom_data
     function sell:clear with storage sell: menu
 
 data remove storage sell: menu
+tag @s remove sell.sel

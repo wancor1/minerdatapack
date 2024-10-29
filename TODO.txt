@@ -1,9 +1,9 @@
 0: home
-1: comingsoon
-2: 
-3: 
+1: 
+2: sell
+3: shop
 
-2: なんかsellのパネルがクリック判定消えてるから直す
+2: craft.2のアイテムの数取れなくて売値バグってる
 2: sellのcrafting.1に売値とかのloreつける
 0: homeのcrafting.3にshop作る
 3: shopはaxe,pickaxe,shovelを売る

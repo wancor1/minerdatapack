@@ -21,3 +21,4 @@ item replace entity @s player.crafting.3 with minecraft:barrier[custom_data={men
     function menu:clear with storage menu: menu
 
 data remove storage menu: menu
+tag @s remove sell.sel

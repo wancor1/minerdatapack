@@ -16,4 +16,4 @@ execute store result score @s qty run data get storage qty 1
 # ↑ 表示
 # ↓ 決定
 
-execute if entity @s[tag=sell.sel] run function sell:s
+$execute if entity @s[tag=sell.sel] run function sell:s {"block":"$(block)"}
