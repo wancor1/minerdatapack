@@ -1,8 +1,12 @@
 #block(名前),SP(値段)
 #{"block":"","SP":""}
 
-data modify storage qty 1 set from entity @s Inventory[{Slot:82b}].count
-execute store result score @s qty run data get storage qty 1
+
+#itemの数取れない
+	#data modify storage qty 1 set from entity @s Inventory[{Slot:82b}].count
+	#execute store result score @s qty run data get storage qty 1
+
+function sell:qty
 
 # sell
 	# reset
