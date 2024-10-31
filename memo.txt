@@ -1,3 +1,15 @@
+memo
+
+category[tool,block]
+└ type[pickaxe,shovel]
+ └ Variant[wooden_pickaxe,stone_pickaxe]
+
+なお
+category[pickaxe]
+type[wooden_pickaxe]
+で運用します。
+
+
 score:
 	panel
 		0:home
@@ -8,13 +20,14 @@ score:
 
 
 
-01
-23
+0 1
+2 3
 
 
 craftslot
 0:home
 2:sell
+3:shop
 
 
 shop
@@ -22,3 +35,4 @@ shop
 1: item
 2: category
 3: next
+

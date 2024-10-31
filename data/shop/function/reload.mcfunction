@@ -6,8 +6,8 @@ execute positioned ~ ~1.2 ~ as @e[type=item,distance=..2] if data entity @s Item
 
 item replace entity @s player.crafting.0 with minecraft:book[custom_data={menu:"shop",panel:"0"},item_name='{"text":"Home","italic":false,"color":"#684107"}',lore=['{"italic":false,"color":"dark_gray","text":"MainMenuに戻る"}']]
 function shop:items
-item replace entity @s player.crafting.2 with minecraft:orange_stained_glass_pane[custom_data={menu:"shop",panel:"2"},custom_model_data=1,item_name='{"text":"Prev","italic":false,"color":"#fff017"}']
-item replace entity @s player.crafting.3 with minecraft:green_stained_glass_pane[custom_data={menu:"shop",panel:"3"},custom_model_data=1,item_name='{"text":"Next","italic":false,"color":"#ff9933"}',lore=['{"italic":false,"color":"dark_gray","text":"shift:prev"}']]
+item replace entity @s player.crafting.2 with minecraft:orange_stained_glass_pane[custom_data={menu:"shop",panel:"2"},custom_model_data=1,item_name='{"text":"Category","italic":false,"color":"#fff017"}',lore=['{"italic":false,"color":"dark_gray","text":"Next"}','{"italic":false,"color":"dark_gray","text":"shift:prev"}']]
+item replace entity @s player.crafting.3 with minecraft:green_stained_glass_pane[custom_data={menu:"shop",panel:"3"},custom_model_data=1,item_name='{"text":"Type","italic":false,"color":"#ff9933"}',lore=['{"italic":false,"color":"dark_gray","text":"Next"}','{"italic":false,"color":"dark_gray","text":"shift:prev"}']]
 
 # オフハンド・カーソルの検知用アイテムをclear
     execute if items entity @s weapon.offhand #shop:invpanelitem run item replace entity @s weapon.offhand with air
