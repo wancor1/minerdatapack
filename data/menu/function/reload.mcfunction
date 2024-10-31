@@ -6,7 +6,7 @@ execute positioned ~ ~1.2 ~ as @e[type=item,distance=..2] if data entity @s Item
 item replace entity @s player.crafting.0 with minecraft:book[custom_data={menu:"invp",panel:"0"},item_name='{"text":"Home","italic":false,"color":"#684107"}',lore=['{"italic":false,"color":"dark_gray","text":"MainMenuに戻る"}']]
 item replace entity @s player.crafting.1 with minecraft:barrier[custom_data={menu:"invp",panel:"1"},item_name='{"text":"Temp","italic":false}']
 item replace entity @s player.crafting.2 with minecraft:emerald[custom_data={menu:"invp",panel:"2"},item_name='{"text":"Sell","italic":false,"color":"#8d65b8"}',lore=['{"italic":false,"color":"dark_gray","text":"Sellを開く"}']]
-item replace entity @s player.crafting.3 with minecraft:barrier[custom_data={menu:"invp",panel:"3"},item_name='{"text":"Temp","italic":false}']
+item replace entity @s player.crafting.3 with minecraft:barrier[custom_data={menu:"invp",panel:"3"},item_name='{"text":"Shop","italic":false,"color":"#8d65b8"}',lore=['{"italic":false,"color":"dark_gray","text":"Sellを開く"}']]
 
 # オフハンド・カーソルの検知用アイテムをclear
     execute if items entity @s weapon.offhand #menu:invpanelitem run item replace entity @s weapon.offhand with air

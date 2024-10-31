@@ -1,10 +1,13 @@
 0: home
-1: 
-2: sell
-3: shop
+1: sell
+2: shop
+3: 
 
-2: craft.2のアイテムの数取れなくて売値バグってる
-2: sellのcrafting.1に売値とかのloreつける
+高
+↕ 優先度
+低
+
 0: homeのcrafting.3にshop作る
-3: shopはaxe,pickaxe,shovelを売る
-2: 売れるアイテム増やす
+1: sellのcrafting.1に売値とかのloreつける
+2: shopはaxe,pickaxe,shovel等を売る
+1: 売れるアイテム増やす

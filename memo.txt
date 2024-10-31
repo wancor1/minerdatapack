@@ -1,9 +1,24 @@
 score:
-panel
-	0:home
-	1:sell
+	panel
+		0:home
+		1:sell
+		2:shop
+		3:
+
+
+
+
+01
+23
 
 
 craftslot
-80:home
-82:sell
+0:home
+2:sell
+
+
+shop
+0: book
+1: item
+2: category
+3: next
