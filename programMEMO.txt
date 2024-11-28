@@ -1,2 +1,0 @@
-shop
-展示アイテムをtagsとcustom_dataで管理してちゃんとinv閉じたときに消す

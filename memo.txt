@@ -9,6 +9,7 @@ category[pickaxe]
 type[wooden_pickaxe]
 で運用します。
 
+-----
 
 score:
 	panel
@@ -18,7 +19,7 @@ score:
 		3:
 
 
-
+-----
 
 0 1
 2 3
@@ -35,4 +36,3 @@ shop
 1: item
 2: category
 3: next
-

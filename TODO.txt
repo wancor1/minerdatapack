@@ -7,7 +7,9 @@
 ↕ 優先度
 低
 
-0: homeのcrafting.3にshop作る
+ : やる気出す
+ : メニュー移動時にhotbar.0のアイテム消える
+3: ちゃんと機能するようにする
 2: sellのcrafting.1に売値とかのloreつける
 3: shopはaxe,pickaxe,shovel等を売る
 2: 売れるアイテム増やす

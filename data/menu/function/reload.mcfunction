@@ -21,4 +21,5 @@ item replace entity @s player.crafting.3 with minecraft:gold_ingot[custom_data={
     function menu:clear with storage menu: menu
 
 data remove storage menu: menu
+
 tag @s remove sell.sel
