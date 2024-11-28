@@ -8,7 +8,7 @@
 低
 
  : やる気出す
- : メニュー移動時にhotbar.0のアイテム消える
+ : menu戻る本の削除関連
 3: ちゃんと機能するようにする
 2: sellのcrafting.1に売値とかのloreつける
 3: shopはaxe,pickaxe,shovel等を売る

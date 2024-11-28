@@ -17,10 +17,10 @@ item replace entity @s player.crafting.3 with minecraft:green_stained_glass_pane
 
 # インベントリ内の検知用アイテムをclear
     data modify storage shop: menu set value {slot0:53,slot1:53,slot2:53,slot3:53}
-    execute if items entity @s container.* #shop:invpanelitem store result storage shop: menu.slot0 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{panel:"0"}}}].Slot
-    execute if items entity @s container.* #shop:items_for_sale store result storage shop: menu.slot1 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{panel:"1"}}}].Slot
-    execute if items entity @s container.* #shop:invpanelitem store result storage shop: menu.slot2 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{panel:"2"}}}].Slot
-    execute if items entity @s container.* #shop:invpanelitem store result storage shop: menu.slot3 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{panel:"3"}}}].Slot
+    execute if items entity @s container.* #shop:invpanelitem[custom_data={menu:"shop",panel:"0"}] store result storage shop: menu.slot0 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"shop",panel:"0"}}}].Slot
+    execute if items entity @s container.* #shop:items_for_sale[custom_data={menu:"shop",panel:"1",shop:"true"}] store result storage shop: menu.slot1 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"shop",panel:"1",shop:"true"}}}].Slot
+    execute if items entity @s container.* #shop:invpanelitem[custom_data={menu:"shop",panel:"2"}] store result storage shop: menu.slot2 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"shop",panel:"2"}}}].Slot
+    execute if items entity @s container.* #shop:invpanelitem[custom_data={menu:"shop",panel:"3"}] store result storage shop: menu.slot3 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"shop",panel:"3"}}}].Slot
     function shop:clear with storage shop: menu
 
 data remove storage shop: menu
