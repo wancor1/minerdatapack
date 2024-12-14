@@ -14,6 +14,7 @@ execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=13] 
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=14] run scoreboard players set @s qty 14
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=15] run scoreboard players set @s qty 15
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=16] run scoreboard players set @s qty 16
+
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=17] run scoreboard players set @s qty 17
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=18] run scoreboard players set @s qty 18
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=19] run scoreboard players set @s qty 19
@@ -30,6 +31,8 @@ execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=29] 
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=30] run scoreboard players set @s qty 30
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=31] run scoreboard players set @s qty 31
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=32] run scoreboard players set @s qty 32
+
+
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=33] run scoreboard players set @s qty 33
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=34] run scoreboard players set @s qty 34
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=35] run scoreboard players set @s qty 35
@@ -46,6 +49,7 @@ execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=45] 
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=46] run scoreboard players set @s qty 46
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=47] run scoreboard players set @s qty 47
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=48] run scoreboard players set @s qty 48
+
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=49] run scoreboard players set @s qty 49
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=50] run scoreboard players set @s qty 50
 execute if items entity @s player.crafting.2 #sell:sell_all[minecraft:count=51] run scoreboard players set @s qty 51
