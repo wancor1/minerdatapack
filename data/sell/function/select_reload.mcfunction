@@ -17,9 +17,9 @@ item replace entity @s player.crafting.3 with minecraft:golden_apple[custom_data
 
 # インベントリ内の検知用アイテムをclear
     data modify storage sell: menu set value {slot0:53,slot1:53,slot2:53,slot3:53,slot4:53,slot5:53,slot6:53}
-    execute if items entity @s container.* minecraft:book[custom_data~{panel:"0"}] store result storage sell: menu.slot0 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{panel:"0"}}}].Slot
-    #execute if items entity @s container.* minecraft:book[custom_data={menu:"sell",panel:"0"}] store result storage sell: menu.slot4 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"sell",panel:"0"}}}].Slot
-    #execute if items entity @s container.* minecraft:book[custom_data={menu:"shop",panel:"0"}] store result storage sell: menu.slot5 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"shop",panel:"0"}}}].Slot
+    execute if items entity @s container.* minecraft:book[custom_data={menu:"invp",panel:"0"}] store result storage sell: menu.slot0 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"invp",panel:"0"}}}].Slot
+    execute if items entity @s container.* minecraft:book[custom_data={menu:"sell",panel:"0"}] store result storage sell: menu.slot4 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"sell",panel:"0"}}}].Slot
+    execute if items entity @s container.* minecraft:book[custom_data={menu:"shop",panel:"0"}] store result storage sell: menu.slot5 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"shop",panel:"0"}}}].Slot
     execute if items entity @s container.* #sell:sellpanelitem[custom_data={menu:"sell",panel:"1"}] store result storage sell: menu.slot1 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"sell",panel:"1"}}}].Slot
     execute if items entity @s container.* #sell:sellpanelitem[custom_data={menu:"sell",panel:"2"}] store result storage sell: menu.slot2 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"sell",panel:"2"}}}].Slot
     execute if items entity @s container.* minecraft:emerald[custom_data={menu:"invp",panel:"2"}] store result storage sell: menu.slot6 int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{menu:"invp",panel:"2"}}}].Slot

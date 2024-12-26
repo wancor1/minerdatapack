@@ -11,8 +11,6 @@ craftmenu
 低
 
  : やる気出す
- : reload offhand,cursorのアイテム
-	menu book
 3: ちゃんと機能するようにする
 2: sellのcrafting.1に売値とかのloreつける
 3: shopはaxe,pickaxe,shovel等を売る
