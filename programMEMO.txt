@@ -1,2 +1,0 @@
-offhand,cursor検知
-	インベントリの検知アイテムclearと同じように
